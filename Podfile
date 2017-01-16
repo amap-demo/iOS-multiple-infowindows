@@ -6,3 +6,11 @@ pod 'AMap3DMap'
 pod 'AMapSearch'
 
 end
+
+target "MultipleInfowindows-Swift" do
+    
+    pod 'AMap3DMap'
+    pod 'AMapSearch'
+    
+end
+

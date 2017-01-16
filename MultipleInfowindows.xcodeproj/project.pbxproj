@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1BD8216B9E1D5F1391B71946 /* libPods-MultipleInfowindows-Swift.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B5DC7B250F8600386AAA341A /* libPods-MultipleInfowindows-Swift.a */; };
 		7012AA2C820F560C17809064 /* libPods-MultipleInfowindows.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F2C5A86A94183EEA7DE3A14 /* libPods-MultipleInfowindows.a */; };
 		81054ED11DDEA5D900DEF6BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 81054ED01DDEA5D900DEF6BB /* main.m */; };
 		81054ED41DDEA5D900DEF6BB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 81054ED31DDEA5D900DEF6BB /* AppDelegate.m */; };
@@ -16,6 +17,13 @@
 		81054EDF1DDEA5D900DEF6BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81054EDD1DDEA5D900DEF6BB /* LaunchScreen.storyboard */; };
 		81054EE81DDEA98400DEF6BB /* MAInfowindowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 81054EE71DDEA98400DEF6BB /* MAInfowindowView.m */; };
 		81054EEB1DDEADD400DEF6BB /* POIAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 81054EEA1DDEADD400DEF6BB /* POIAnnotation.m */; };
+		D98F9F521E2CB8610040F730 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98F9F511E2CB8610040F730 /* AppDelegate.swift */; };
+		D98F9F541E2CB8610040F730 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98F9F531E2CB8610040F730 /* ViewController.swift */; };
+		D98F9F571E2CB8610040F730 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98F9F551E2CB8610040F730 /* Main.storyboard */; };
+		D98F9F591E2CB8610040F730 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D98F9F581E2CB8610040F730 /* Assets.xcassets */; };
+		D98F9F5C1E2CB8610040F730 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98F9F5A1E2CB8610040F730 /* LaunchScreen.storyboard */; };
+		D98F9F631E2CC0E40040F730 /* POIAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98F9F621E2CC0E40040F730 /* POIAnnotation.swift */; };
+		D98F9F651E2CCB2A0040F730 /* MAInfowindowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98F9F641E2CCB2A0040F730 /* MAInfowindowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +44,19 @@
 		81054EE71DDEA98400DEF6BB /* MAInfowindowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAInfowindowView.m; sourceTree = "<group>"; };
 		81054EE91DDEADD400DEF6BB /* POIAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POIAnnotation.h; sourceTree = "<group>"; };
 		81054EEA1DDEADD400DEF6BB /* POIAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POIAnnotation.m; sourceTree = "<group>"; };
+		96F88246E0E044BFB2F77399 /* Pods-MultipleInfowindows-Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultipleInfowindows-Swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-MultipleInfowindows-Swift/Pods-MultipleInfowindows-Swift.release.xcconfig"; sourceTree = "<group>"; };
+		B5DC7B250F8600386AAA341A /* libPods-MultipleInfowindows-Swift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MultipleInfowindows-Swift.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D98F9F4F1E2CB8610040F730 /* MultipleInfowindows-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MultipleInfowindows-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D98F9F511E2CB8610040F730 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D98F9F531E2CB8610040F730 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D98F9F561E2CB8610040F730 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D98F9F581E2CB8610040F730 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D98F9F5B1E2CB8610040F730 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D98F9F5D1E2CB8610040F730 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D98F9F611E2CB8CB0040F730 /* Swift-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Swift-Bridging-Header.h"; sourceTree = "<group>"; };
+		D98F9F621E2CC0E40040F730 /* POIAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = POIAnnotation.swift; sourceTree = "<group>"; };
+		D98F9F641E2CCB2A0040F730 /* MAInfowindowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MAInfowindowView.swift; sourceTree = "<group>"; };
+		E96E8B37192942A89F11DEEA /* Pods-MultipleInfowindows-Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultipleInfowindows-Swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MultipleInfowindows-Swift/Pods-MultipleInfowindows-Swift.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +68,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D98F9F4C1E2CB8610040F730 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BD8216B9E1D5F1391B71946 /* libPods-MultipleInfowindows-Swift.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -54,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				1F2C5A86A94183EEA7DE3A14 /* libPods-MultipleInfowindows.a */,
+				B5DC7B250F8600386AAA341A /* libPods-MultipleInfowindows-Swift.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -63,6 +93,8 @@
 			children = (
 				21E8172B8BC6AD242E2143D2 /* Pods-MultipleInfowindows.debug.xcconfig */,
 				63FCE21E474824177FE9563A /* Pods-MultipleInfowindows.release.xcconfig */,
+				E96E8B37192942A89F11DEEA /* Pods-MultipleInfowindows-Swift.debug.xcconfig */,
+				96F88246E0E044BFB2F77399 /* Pods-MultipleInfowindows-Swift.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -71,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				81054ECE1DDEA5D900DEF6BB /* MultipleInfowindows */,
+				D98F9F501E2CB8610040F730 /* MultipleInfowindows-Swift */,
 				81054ECD1DDEA5D900DEF6BB /* Products */,
 				67704FA8CB29B496D9EA1AC9 /* Pods */,
 				12BB1A31BC253F1CA4BBA303 /* Frameworks */,
@@ -81,6 +114,7 @@
 			isa = PBXGroup;
 			children = (
 				81054ECC1DDEA5D900DEF6BB /* MultipleInfowindows.app */,
+				D98F9F4F1E2CB8610040F730 /* MultipleInfowindows-Swift.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -113,6 +147,22 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		D98F9F501E2CB8610040F730 /* MultipleInfowindows-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				D98F9F511E2CB8610040F730 /* AppDelegate.swift */,
+				D98F9F611E2CB8CB0040F730 /* Swift-Bridging-Header.h */,
+				D98F9F531E2CB8610040F730 /* ViewController.swift */,
+				D98F9F641E2CCB2A0040F730 /* MAInfowindowView.swift */,
+				D98F9F621E2CC0E40040F730 /* POIAnnotation.swift */,
+				D98F9F551E2CB8610040F730 /* Main.storyboard */,
+				D98F9F581E2CB8610040F730 /* Assets.xcassets */,
+				D98F9F5A1E2CB8610040F730 /* LaunchScreen.storyboard */,
+				D98F9F5D1E2CB8610040F730 /* Info.plist */,
+			);
+			path = "MultipleInfowindows-Swift";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -136,17 +186,43 @@
 			productReference = 81054ECC1DDEA5D900DEF6BB /* MultipleInfowindows.app */;
 			productType = "com.apple.product-type.application";
 		};
+		D98F9F4E1E2CB8610040F730 /* MultipleInfowindows-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D98F9F601E2CB8610040F730 /* Build configuration list for PBXNativeTarget "MultipleInfowindows-Swift" */;
+			buildPhases = (
+				00D26AE21459C5E8F885373F /* [CP] Check Pods Manifest.lock */,
+				D98F9F4B1E2CB8610040F730 /* Sources */,
+				D98F9F4C1E2CB8610040F730 /* Frameworks */,
+				D98F9F4D1E2CB8610040F730 /* Resources */,
+				29FFA179EBD0A1C9E3EFCA86 /* [CP] Embed Pods Frameworks */,
+				917F26BF8A42BCED955A878B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MultipleInfowindows-Swift";
+			productName = "MultipleInfowindows-Swift";
+			productReference = D98F9F4F1E2CB8610040F730 /* MultipleInfowindows-Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		81054EC41DDEA5D900DEF6BB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0820;
 				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = AutoNavi;
 				TargetAttributes = {
 					81054ECB1DDEA5D900DEF6BB = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = YMJ372W38W;
+						ProvisioningStyle = Manual;
+					};
+					D98F9F4E1E2CB8610040F730 = {
+						CreatedOnToolsVersion = 8.2;
 						DevelopmentTeam = YMJ372W38W;
 						ProvisioningStyle = Manual;
 					};
@@ -166,6 +242,7 @@
 			projectRoot = "";
 			targets = (
 				81054ECB1DDEA5D900DEF6BB /* MultipleInfowindows */,
+				D98F9F4E1E2CB8610040F730 /* MultipleInfowindows-Swift */,
 			);
 		};
 /* End PBXProject section */
@@ -181,9 +258,49 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D98F9F4D1E2CB8610040F730 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D98F9F5C1E2CB8610040F730 /* LaunchScreen.storyboard in Resources */,
+				D98F9F591E2CB8610040F730 /* Assets.xcassets in Resources */,
+				D98F9F571E2CB8610040F730 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		00D26AE21459C5E8F885373F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		29FFA179EBD0A1C9E3EFCA86 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MultipleInfowindows-Swift/Pods-MultipleInfowindows-Swift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		438BF43C4314E3A4FFD2F90B /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -212,6 +329,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		917F26BF8A42BCED955A878B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MultipleInfowindows-Swift/Pods-MultipleInfowindows-Swift-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		EB0509B62E3BD75801D32984 /* [CP] Copy Pods Resources */ = {
@@ -244,6 +376,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D98F9F4B1E2CB8610040F730 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D98F9F541E2CB8610040F730 /* ViewController.swift in Sources */,
+				D98F9F521E2CB8610040F730 /* AppDelegate.swift in Sources */,
+				D98F9F651E2CCB2A0040F730 /* MAInfowindowView.swift in Sources */,
+				D98F9F631E2CC0E40040F730 /* POIAnnotation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
@@ -259,6 +402,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				81054EDE1DDEA5D900DEF6BB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D98F9F551E2CB8610040F730 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D98F9F561E2CB8610040F730 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D98F9F5A1E2CB8610040F730 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D98F9F5B1E2CB8610040F730 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -385,6 +544,48 @@
 			};
 			name = Release;
 		};
+		D98F9F5E1E2CB8610040F730 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E96E8B37192942A89F11DEEA /* Pods-MultipleInfowindows-Swift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEVELOPMENT_TEAM = YMJ372W38W;
+				INFOPLIST_FILE = "MultipleInfowindows-Swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.autonavi.MultipleInfowindows;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "8014ae4e-33b6-4937-87e3-3725a2aad4f7";
+				PROVISIONING_PROFILE_SPECIFIER = openPlatform_development;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "./MultipleInfowindows-Swift/Swift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D98F9F5F1E2CB8610040F730 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96F88246E0E044BFB2F77399 /* Pods-MultipleInfowindows-Swift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = YMJ372W38W;
+				INFOPLIST_FILE = "MultipleInfowindows-Swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.autonavi.MultipleInfowindows;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "a892512d-fe94-4702-b716-0b66880b936d";
+				PROVISIONING_PROFILE_SPECIFIER = openPlatformInhouse;
+				SWIFT_OBJC_BRIDGING_HEADER = "./MultipleInfowindows-Swift/Swift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -402,6 +603,15 @@
 			buildConfigurations = (
 				81054EE41DDEA5D900DEF6BB /* Debug */,
 				81054EE51DDEA5D900DEF6BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D98F9F601E2CB8610040F730 /* Build configuration list for PBXNativeTarget "MultipleInfowindows-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D98F9F5E1E2CB8610040F730 /* Debug */,
+				D98F9F5F1E2CB8610040F730 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

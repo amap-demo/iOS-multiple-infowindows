@@ -15,7 +15,10 @@
 
 ## 核心难点 ##
 
+'Objective-C'
+
 ```
+
 /* 自定义绘制弹出框效果annotaitonView. */
 - (void)drawRect:(CGRect)rect
 {
@@ -55,3 +58,39 @@
     CGContextClosePath(context);
 }
 ```
+
+'Swift'
+
+/* 自定义绘制弹出框效果annotaitonView. */
+override func draw(_ rect: CGRect) {
+    self.draw(context: UIGraphicsGetCurrentContext()!)
+    self.layer.shadowColor = UIColor.gray.cgColor
+    self.layer.shadowOpacity = 1.0
+    self.layer.shadowOffset = CGSize(width: CGFloat(0.0), height: CGFloat(0.0))
+}
+
+func draw(context: CGContext) {
+    context.setLineWidth(CGFloat(1.0))
+    context.setFillColor(kBackgroundColor.cgColor)
+    self.getDrawPath(context:context)
+    context.fillPath()
+}
+
+func getDrawPath(context: CGContext) {
+    let rrect: CGRect = self.bounds
+    let radius: CGFloat = 6.0
+    let minx: CGFloat = rrect.minX
+    let midx: CGFloat = rrect.midX
+    let maxx: CGFloat = rrect.maxX
+    let miny: CGFloat = rrect.minY
+    let maxy: CGFloat = rrect.maxY - kArrorHeight
+    context.move(to: CGPoint(x: CGFloat(midx + kArrorHeight), y: maxy))
+    context.addLine(to: CGPoint(x: midx, y: CGFloat(maxy + kArrorHeight)))
+    context.addLine(to: CGPoint(x: CGFloat(midx - kArrorHeight), y: maxy))
+    context.addArc(tangent1End: CGPoint(x: minx, y: maxy), tangent2End: CGPoint(x: minx, y: miny), radius: radius)
+    context.addArc(tangent1End: CGPoint(x: minx, y: minx), tangent2End: CGPoint(x: maxx, y: miny), radius: radius)
+    context.addArc(tangent1End: CGPoint(x: maxx, y: miny), tangent2End: CGPoint(x: maxx, y: maxx), radius: radius)
+    context.addArc(tangent1End: CGPoint(x: maxx, y: maxy), tangent2End: CGPoint(x: midx, y: maxy), radius: radius)
+    context.closePath()
+}
+

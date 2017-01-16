@@ -72,6 +72,9 @@
 /* POI 搜索回调. */
 - (void)onPOISearchDone:(AMapPOISearchBaseRequest *)request response:(AMapPOISearchResponse *)response
 {
+    
+    [self.mapView removeAnnotations:self.mapView.annotations];
+    
     if (response.pois.count == 0)
     {
         return;
@@ -108,6 +111,7 @@
     self.mapView = [[MAMapView alloc] initWithFrame:self.view.bounds];
     self.mapView.delegate = self;
     [self.view addSubview:self.mapView];
+    [self.view sendSubviewToBack:self.mapView];
 }
 
 - (void)initSearch
@@ -127,7 +131,13 @@
     [self initSearch];
     [self initMapView];
     
+}
+
+#pragma mark xib btn click
+
+- (IBAction)start:(id)sender {
     [self searchPoiKeyword:@"肯德基"];
 }
+
 
 @end
