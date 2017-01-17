@@ -41,6 +41,10 @@
 - (void)mapView:(MAMapView *)mapView didSelectAnnotationView:(MAAnnotationView *)view
 {
     AMapPOI *poi = ((POIAnnotation *)view.annotation).poi;
+    
+    UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"InfoWindowView" message:poi.name delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
+    [alertView show];
+    
     NSLog(@"poi :%@, address :%@", poi.name, poi.address);
 }
 
@@ -60,6 +64,7 @@
         
         POIAnnotation *poiAnno = (POIAnnotation *)annotation;
         poiAnnotationView.title = poiAnno.poi.name;
+        poiAnnotationView.accessibilityIdentifier = @"CustomInfoWindowView";
         
         return poiAnnotationView;
     }

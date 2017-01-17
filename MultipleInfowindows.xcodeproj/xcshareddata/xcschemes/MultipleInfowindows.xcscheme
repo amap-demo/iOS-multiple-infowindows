@@ -28,6 +28,16 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D9F65BC31E2DF3DF002BBD5C"
+               BuildableName = "MultipleInfowindowsUITests.xctest"
+               BlueprintName = "MultipleInfowindowsUITests"
+               ReferencedContainer = "container:MultipleInfowindows.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
