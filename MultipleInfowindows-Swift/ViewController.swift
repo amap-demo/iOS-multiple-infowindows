@@ -53,7 +53,7 @@ class ViewController: UIViewController ,MAMapViewDelegate, AMapSearchDelegate{
     
     func onPOISearchDone(_ request: AMapPOISearchBaseRequest!, response: AMapPOISearchResponse!) {
         
-        self.mapView .removeAnnotations(self.mapView.annotations)
+        self.mapView.removeAnnotations(self.mapView.annotations)
         
         if response.pois.count == 0 {
             return;
