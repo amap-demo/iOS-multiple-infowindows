@@ -64,7 +64,6 @@
         
         POIAnnotation *poiAnno = (POIAnnotation *)annotation;
         poiAnnotationView.title = poiAnno.poi.name;
-        poiAnnotationView.accessibilityIdentifier = @"CustomInfoWindowView";
         
         return poiAnnotationView;
     }

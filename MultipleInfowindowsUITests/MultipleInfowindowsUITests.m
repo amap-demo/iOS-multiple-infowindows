@@ -43,7 +43,7 @@
     sleep(2);
     
     //获取所有的infoWindowView
-    XCUIElementQuery *allInfoView = [app.otherElements containingType:XCUIElementTypeAny identifier:@"CustomInfoWindowView"];
+    XCUIElementQuery *allInfoView = [app.otherElements containingType:XCUIElementTypeAny identifier:@"maannotationview"];
     NSInteger infoViewCount = allInfoView.count;
     
     XCTAssert(infoViewCount > 1, @"数量应该大于1的");
