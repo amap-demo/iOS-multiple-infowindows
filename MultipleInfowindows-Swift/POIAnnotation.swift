@@ -18,13 +18,13 @@ class POIAnnotation: NSObject,MAAnnotation {
         }
     }
     
-    var title: String {
+    private var title: String {
         get {
             return self.poi.name
         }
     }
     
-    var subtitle: String {
+    private var subtitle: String {
         get {
             return self.poi.address
         }
